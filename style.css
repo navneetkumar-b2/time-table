@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: aliceblue; */
+}
+
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: #2db6b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.logoContiner{
+    display: block;
+    margin: auto 9px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(68, 68, 227);
+    overflow: hidden;
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+     background: url("/logo.gif");
+    background-size: contain;
+    border: 2px solid black;
+    border-radius: 50%; 
+}
+.containerr{
+    min-height: 10vh;
+    width: 60vw;
+    /* background-color: rgb(16, 201, 226); */
+    margin: 50px auto;
+    border-radius: 10px;
+    background: rgb(140, 240, 234);
+background: linear-gradient(170deg, rgba(176,191,190,1) 0%, rgba(31,177,178,0.9389005602240896) 87%);
+ box-shadow: 3px 6px 2px #888888;
+}
+@media(max-width:800px) {
+    .containerr{
+        width: 90vw
+}
+}
+
+h2{
+    text-align: center;
+    margin: 25px;
+}
+.inputcity{
+    width: 80%;
+    height: 30%;
+    display: block;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    box-shadow: 2px 4px 2px #888888;
+}
+.s-btns{
+    display: block;
+    padding: 5px;    
+}
+.btn{
+    padding: 8px;
+    /* background-color: rgb(25, 25, 19); */
+    border: 1px solid;
+    border-radius: 10%;
+}
+.btn-top{
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+    /* padding: 5px; */
+    
+}
+.btn-mid{
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+    /* padding: 5px; */
+
+}
+.btn-end{
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+    /* padding: 5px; */
+
+}
+.pd{
+    margin: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border:2px solid black;
+    padding: 8px;
+    text-align: center;
+    font:bold;
+}
+
+th {
+    text-align: center;
+    background-color: #728199;
+}
+thead{
+    text-align: center;
+
+}
+/* Yellow rows */
+tr:nth-child(even) {
+    background-color: rgb(214, 214, 151);
+}
+
+/* White rows */
+tr:nth-child(odd) {
+    background-color: white;
+}
+.tut{
+    padding: 9%;
+    line-height: 130%;
+}
+.tut p{
+    padding: 7px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 200%;
+    /* position: absolute;
+    bottom: 0px; */
+}
+.credit{
+    text-decoration: none;
+}
+.footer a{
+    margin-top: 30px;
+    color: white;  
+}
